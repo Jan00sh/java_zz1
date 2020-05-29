@@ -56,7 +56,7 @@ class Script{
 				else continue;
 			}
 		}
-		System.out.println("\n" + searchedKeyword + ": " + occurences);
+		System.out.println("\nW pliku \"" + filePath + "\" slowo " + searchedKeyword + " wystepuje " + occurences + " razy.");
 	}
 	
 }
